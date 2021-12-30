@@ -22,3 +22,7 @@ I personally use it with:
 To test if your terminal and font support it, check that all the necessary characters are supported by copying the following command to your terminal: `print "\ue0b0 \u00b1 \ue0a0 \u27a6"`. The result should not render any question marks in boxes (unknown characters), like so:
 
 ![Characters that should be shown](/characters.png?raw=true "Characters that should be shown")
+
+## Usage
+
+[New themes are not being accepted](https://github.com/ohmyzsh/ohmyzsh/#do-not-send-us-themes), so follow [Oh My ZSH's guide for overriding and adding your own themes](https://github.com/ohmyzsh/ohmyzsh/wiki/Customization#overriding-and-adding-themes).
