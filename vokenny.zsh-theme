@@ -110,9 +110,16 @@ prompt_main() {
   done
 }
 
+## Random emoji
+EMOJI=(💩 🐦 🚀 🐞 🎨 🍕 🐭 👽 ☕️ 🔬 💀 🐷 🐼 🐶 🐸 🐧 🐳 🍔 🍣 🍻 🔮 💰 💎 💾 💜 🍪 🌞 🌍 🐌 🐓 🍄)
+
+random_emoji() {
+  print -n "$EMOJI[$RANDOM%$#EMOJI+1]"
+}
+
 prompt_precmd() {
   vcs_info
-  PROMPT='${NEWLINE}%{%f%b%k%}$(prompt_main)${NEWLINE}'
+  PROMPT='${NEWLINE}%{%f%b%k%}$(prompt_main)${NEWLINE}$(random_emoji) > '
 }
 
 prompt_setup() {
