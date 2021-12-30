@@ -14,6 +14,7 @@ I personally use it with:
 1. Colors - the prompt colours are chosen with Tomorrow Night Blue theme in mind
 2. Pre-pending a date & time stamp in the prompt
 3. Removing a lot of the extra info that I didn't want/need
+4. Random emoji in the prompt
 
 ## Compatibility
 
