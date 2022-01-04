@@ -67,7 +67,7 @@ prompt_end() {
 ## Prompt components
 # Each component will draw itself, and hide itself if no information needs to be shown
 
-# Time: formatted date & time stamp when the command executed, e.g. Web 29 Dec - 16:30:05
+# Time: formatted date & time stamp when the command executed, e.g. Web 29 Dec - 04:30:05 pm
 prompt_time() {
   prompt_segment yellow $PRIMRY_FG '%{$fg_bold[black]%} %D{%a%e %b - %r '
 }
