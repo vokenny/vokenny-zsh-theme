@@ -69,7 +69,7 @@ prompt_end() {
 
 # Time: formatted date & time stamp when the command executed, e.g. Web 29 Dec - 16:30:05
 prompt_time() {
-  prompt_segment yellow $PRIMRY_FG '%{$fg_bold[black]%} %D{%a%e %b - %r'
+  prompt_segment yellow $PRIMRY_FG '%{$fg_bold[black]%} %D{%a%e %b - %r '
 }
 
 # Dir: current working directory
